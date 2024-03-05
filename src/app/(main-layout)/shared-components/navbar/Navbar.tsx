@@ -2,10 +2,11 @@
 
 import Link from "next/link";
 import { useSelector } from "react-redux";
+import { RootState } from "../../../../../redux/store";
 
 
 const Navbar = () => {
-    const { user } = useSelector((state) => state.userReducer);
+    const { user } = useSelector((state: RootState) => state.userReducer);
     // console.log(user?.email);
     return (
         <div className="py-4">

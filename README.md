@@ -1,3 +1,10 @@
+## To run this project
+1. open your terminal and type <code>git clone https://github.com/riasat01/simple-custom-next-auth.git</code>
+2. Then type <code>cd simple-custom-next-auth</code>
+3. Then <code>npm i</code>
+4. Rename <code>.env.example</code> to <code>.env</code> and replace the variable values with your own
+5. Lastly <code>npm run dev</code>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
