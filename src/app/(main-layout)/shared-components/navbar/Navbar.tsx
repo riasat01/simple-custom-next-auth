@@ -12,7 +12,7 @@ const Navbar = () => {
     const [value, setValue] = useState<boolean>(false);
     useEffect(() => {
         window.addEventListener('scroll', () => {
-            console.log(`screenTop: ${window.screenTop}, pageYOffset: ${window.pageYOffset}, screenY: ${window.screenY}, scrollY: ${window.scrollY}`);
+            // console.log(`screenTop: ${window.screenTop}, pageYOffset: ${window.pageYOffset}, screenY: ${window.screenY}, scrollY: ${window.scrollY}`);
             if(scrollY > 5){
                 setValue(true);
             }else{
