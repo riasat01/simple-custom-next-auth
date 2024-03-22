@@ -7,9 +7,9 @@ import { RootState } from "../../../../../redux/store";
 
 const Navbar = () => {
     const { user } = useSelector((state: RootState) => state.userReducer);
-    // console.log(user?.email);
+    // console.log(window.innerHeight);
     return (
-        <div className="py-4">
+        <div className="py-4 absolute w-full">
             <ul className="flex justify-center items-center gap-6 text-center">
                 <li>
                     <Link href='/'>Home</Link>
