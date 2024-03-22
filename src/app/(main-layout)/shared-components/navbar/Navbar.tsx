@@ -21,7 +21,7 @@ const Navbar = () => {
         })
     }, []);
     return (
-        <div className={`py-4 bg-slate-900 ${value ? `fixed inset-0  bg-opacity-50 text-white`:`absolute bg-opacity-0 text-base`} w-full h-12 duration-300 z-50`}>
+        <div className={`py-4 bg-slate-900 ${value ? `fixed inset-0  bg-opacity-50 text-white`:`absolute inset-0 bg-opacity-0 text-base`} w-full h-12 duration-300 z-50`}>
             <ul className="flex justify-center items-center gap-6 text-center">
                 <li>
                     <Link href='/'>Home</Link>

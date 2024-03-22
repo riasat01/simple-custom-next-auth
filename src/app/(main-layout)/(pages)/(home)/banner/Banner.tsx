@@ -4,7 +4,7 @@ import bannerImg from "../../../../../../public/images/banner.jpg";
 
 const Banner = () => {
     return (
-        <Image src={bannerImg} alt="banner" height={1400} width={500} className="w-screen h-screen"/>
+        <Image src={bannerImg} alt="banner" height={500} width={1400} className="w-screen h-screen"/>
     );
 };
 

@@ -74,7 +74,7 @@ const SignUpPage = () => {
     }, [isRegistered])
     return (
         <>
-            <section className="w-full md:w-2/3 lg:w-1/3 mx-auto">
+            <section className="w-full h-screen mt-24 md:w-2/3 lg:w-1/3 mx-auto">
                 {
                     isRegistered && <h3 className="p-4 border-b-green-400 border-b-2 shadow-lg rounded-md text-green-400 font-medium text-center">Congratulations! Sign Up successful</h3>
                 }

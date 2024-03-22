@@ -55,7 +55,7 @@ const LoginPage = () => {
     }
     return (
         <>
-            <section className="w-full md:w-2/3 lg:w-1/3 mx-auto">
+            <section className="w-full h-screen mt-24 md:w-2/3 lg:w-1/3 mx-auto">
                 {
                     error && <h3 className="p-4 border-b-red-400 border-b-2 shadow-lg rounded-md text-red-400 font-medium text-center">{error}</h3>
                 }

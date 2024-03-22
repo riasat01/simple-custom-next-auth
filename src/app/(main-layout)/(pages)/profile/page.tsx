@@ -19,7 +19,7 @@ const ProfilePage = () => {
         }
     }, [user, router]);
     return (
-        <div>
+        <div className="h-screnn mt-24">
             this is profile page
             <p>{user?.name}</p>
             <p>{user?.email}</p>
