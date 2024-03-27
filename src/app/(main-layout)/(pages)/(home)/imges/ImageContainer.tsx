@@ -23,13 +23,15 @@ const ImageContainer = () => {
     useEffect(() => {
         addEventListener('scroll', () => {
             console.log(innerHeight, document.documentElement.scrollHeight, scrollY);
-            if (innerHeight + scrollY === document.documentElement.scrollHeight) {
-                setIsLoading(true);
-                setLength(() => length + 4 >= images?.length ? images?.length : length + 4);
-                setIsLoading(false);
+            if(window){
+                if (innerHeight + scrollY === document.documentElement.scrollHeight) {
+                    setIsLoading(true);
+                    setLength(() => length + 4 >= images?.length ? images?.length : length + 4);
+                    setIsLoading(false);
+                }
             }
         })
-    }, [document.documentElement.scrollHeight, images.length])
+    }, [images.length, length]);
     return (
         <section>
             <h1>Images</h1>
